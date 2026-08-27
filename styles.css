@@ -701,3 +701,28 @@ details p {
         transition: none !important;
     }
 }
+
+/* ==================================================
+   VIDEO 
+================================================== */
+
+.video-seccion {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.video-seccion h2 {
+    margin-bottom: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video iframe {
+    width: 400px;
+    height: 500px;
+    border: none;
+    border-radius: 12px;
+}
